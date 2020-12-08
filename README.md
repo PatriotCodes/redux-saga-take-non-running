@@ -13,7 +13,7 @@ This is as simple as the following:
 import takeNonRunning from 'redux-saga-take-non-running';
 
 function* fetchRecordByIdSaga({ id }) {
-  // fetching logic
+  // fetching logic (saga will not be spawned if is already running for the same id param)
 }
 
 export function* mainSaga() {
