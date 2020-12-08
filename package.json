@@ -1,0 +1,28 @@
+{
+  "name": "redux-saga-take-non-running",
+  "version": "1.0.0",
+  "description": "A variation of redux saga takeEvery effect that will not call saga simultaneously for the same params passed",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PatriotCodes/redux-saga-take-non-running.git"
+  },
+  "keywords": [
+    "redux-saga",
+    "takeEvery",
+    "javascript",
+    "react"
+  ],
+  "author": "Alexander Triukhan",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PatriotCodes/redux-saga-take-non-running/issues"
+  },
+  "homepage": "https://github.com/PatriotCodes/redux-saga-take-non-running#readme",
+  "peerDependencies": {
+    "redux-saga": "^1.1.3"
+  }
+}
